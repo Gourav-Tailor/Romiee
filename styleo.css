@@ -1,0 +1,236 @@
+
+.div {
+  font-size: 20px;
+  border: 0px solid grey;
+  background-color:  #bfbfbf;
+  width: 450px;
+  height: 40px;
+  border-radius: 2px;
+ 
+  }
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: none;
+  padding: 0px;
+  font-size: 20px;
+  z-index: 3;
+}
+
+heado {
+   position: absolute;
+   left: 0px;
+   top: 0px;
+  font-size: 10px;
+  float: right;
+  width: 100%;
+  height: 152px; 
+  background: 	linear-gradient(to bottom, #20afdf,#469cb9);
+  text-align: left;
+}
+
+sill {
+   position: absolute;
+   right: 50px;
+   top: 76px;
+  font-size: 10px;
+  float: right;
+  width: 450px;
+  height: 40px; 
+  background: #20afdf;
+  text-align: left;
+}
+
+bill {
+   position: absolute;
+   right: 6%;
+   top: 50%;
+  font-size: 10px;
+  float: right;
+  width: auto;
+  height: auto; 
+  background: none;
+  text-align: left;
+}
+plyr {
+   position: absolute;
+   left: 2%;
+   top: 153px;
+  font-size: 10px;
+  float: right;
+  width: 66%;
+  height: 1280px; 
+  background: linear-gradient(to bottom, #469cb9,white);
+  text-align: center;
+  z-index: 4;
+}
+skipp {
+   position: absolute;
+   right: 10px;
+   top: 704px;
+  width: 100px;
+  height: 40px; 
+  background: none;
+}
+toll {
+   position: absolute;
+   left: 0px;
+   top: 700px;
+  font-size: 10px;
+  float: right;
+  width: 1000px;
+  height: 100px; 
+  background: none;
+  text-align: center;
+}
+hill {
+   position: relative;
+   left: 0%;
+   top: 5%;
+  font-size: 10px;
+  float: left;
+  width: auto;
+  height: auto; 
+  background: none;
+  text-align: left;
+}
+desc {
+   position: absolute;
+           border-radius: 5px;
+   left: 10px;
+   right: 10px;
+   top: 860px;
+  font-size: 10px;
+  float: right;
+  height: 400px; 
+  background: white;
+  text-align: left;
+}
+nav1 {
+   position: absolute;
+   right: 0px;
+   top: 153px;
+  font-size: 10px;
+  float: right;
+  width: 30%;
+  height: 100%; 
+  background: none;
+  text-align: center;
+}
+nav2 {
+   position: relative;
+   right: 1%;
+   top: 100px;
+   border-width: 2px; 
+      border-style: none;
+        border-radius: 5px;
+        padding-top: 10px;
+  font-size: 10px;
+  float: right;
+  width: 98%;
+  height: 110px; 
+  background: none;
+  text-align: center;
+    overflow: hidden;
+}
+imma1 {
+   position: relative;
+   left: 1%;
+   top: 2px;
+   border-style: none;
+     border-radius: 0px 0px 0px 0px;
+  float: left;
+  width: 30%;
+  height: 94%; 
+  text-align: left;
+}
+imma2 {
+   position: relative;
+   right: 1%;
+   top: 2px;
+   border-style: none;
+     border-radius: 0px 0px 0px 0px;
+  float: right;
+  width: 70%;
+  height: 94%;
+  background: none;
+  color:white;
+  text-align: left;
+
+}
+
+
+button{
+    background-color: white;
+    color: #20afdf;
+    padding: 5px 20px;
+    cursor: pointer;
+    font-size: 20px;
+    border-style: none;
+    border-radius: 5px 5px 5px 5px;
+    z-index:3;
+    
+}
+
+   video,video:active ,video:focus{ outline: none;
+                                  }
+   video::cue {
+     background: #469cb9;
+     color: white;
+   }
+   video::cue(b) {
+     color: red;
+   }
+
+body {
+  margin:0px;
+  font-family:"Open Sans",sans-serif;
+}
+#context-menu {
+  position:fixed;
+  z-index:10000;
+  width:150px;
+  background: white;
+  border-radius:5px;
+  transform:scale(0);
+  transform-origin:top left;
+}
+#context-menu.active {
+  transform:scale(1);
+  transition:transform 300ms ease-in-out;
+}
+#context-menu .item {
+  padding:8px 10px;
+  font-size:15px;
+  color: black;
+}
+#context-menu .item:hover {
+  background: #20afdf;
+}
+#context-menu .item i {
+  display:inline-block;
+  margin-right:5px;
+}
+#context-menu hr {
+  margin:2px 0px;
+  border-color:#20afdf;
+}    
+durb {
+   position: relative;
+   right: 5%;
+   top: 80%;
+   border-style: none;
+     border-radius: 0px 0px 0px 0px;
+  float: right;
+  width: auto;
+  height: auto; 
+  text-align: left;
+  z-index:3
+}
+h1 {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10+ and Edge */
+  user-select: none; /* Standard syntax */
+}
+
